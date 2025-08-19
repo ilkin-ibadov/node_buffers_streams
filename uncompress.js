@@ -1,6 +1,6 @@
-const fs = require("fs");
-const zlib = require("zlib");
-const { pipeline } = require("stream");
+import fs from "fs"
+import zlib from "zlib"
+import { pipeline } from "stream"
 
 const gUnzip = zlib.createGunzip();
 const source = fs.createReadStream("output.txt");
