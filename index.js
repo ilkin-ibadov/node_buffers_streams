@@ -30,7 +30,7 @@
 // const bufJson = Buffer.from('hello');
 // console.log(bufJson.toJSON()); // { type: 'Buffer', data: [ 104, 101, 108, 108, 111 ] }
 
-// const fs = require("fs");
+// import fs from "fs";
 // const readableStream = fs.createReadStream("input.txt", { encoding: "utf8" });
 
 // readableStream.on("data", (chunk) => {
@@ -51,7 +51,7 @@
 
 // // readableStream.pipe(writableStream);
 
-// const { Transform } = require('stream');
+// import { Transform } from 'stream';
 
 // const upperCaseTransform = new Transform({
 //   transform(chunk, encoding, callback) {
